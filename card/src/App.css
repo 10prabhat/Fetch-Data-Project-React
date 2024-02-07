@@ -1,0 +1,39 @@
+body {
+  background-color: #f0f7f4;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.head {
+  margin: 2vh 0;
+  font-size: 70px;
+  text-align: center;
+  color: #3c493f;
+}
+.App {
+  width: 980px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 22px;
+  padding-top: 2vh;
+}
+.card {
+  border: 1px solid #6dc49a;
+  background-color: #a2e3c4;
+  padding: 8px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 1rem #8dc5aa;
+}
+.card h1 {
+  display: flex;
+  color: #3c493f;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.card .para {
+  color: #7e8d85;
+}
+.card h1 p {
+  font-size: 16px;
+  color: black;
+}
